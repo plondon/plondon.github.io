@@ -24,7 +24,16 @@
 			<input type="radio" name="like" id="maybe">
 
         <script type="text/javascript">
-        alert('hey liz');
+        $('#yes').on('click', function() {
+        	alert(':)')
+        });
+        $('#no').on('click', function() {
+        	alert(':(')
+        });
+        $('#maybe').on('click', function() {
+        	alert(':|')
+        });
+
         </script>
     </body>
 </html>
